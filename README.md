@@ -1,64 +1,59 @@
-# 🌟 Viola Ranjha | Full-Stack Developer 🌟  
+# Jahnke & Jahnke Associates
 
-🚀 Welcome to my **developer portfolio**! I specialize in **full-stack web development** with a passion for **beautiful UI/UX, dynamic web applications, and problem-solving.**  
+## Overview
+Jahnke & Jahnke Associates is a professional civil engineering and land surveying firm dedicated to delivering high-quality infrastructure solutions. With decades of experience, we specialize in residential, commercial, industrial, municipal, and transportation projects.
 
-🌎 **Live Website:** [vmr093.github.io/ViolaRanjha](https://vmr093.github.io/ViolaRanjha/#about)  
+## Features
+- **Civil Engineering** – Providing comprehensive engineering solutions.
+- **Land Surveying** – Offering accurate boundary and topographic surveys.
+- **3D Laser Scanning** – Advanced technology for precise site mapping.
+- **Online Order Form** – Clients can submit project requests easily.
+- **Responsive Design** – Fully optimized for all devices.
 
----
+## Technologies Used
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP (for form processing)
+- **Styling:** Custom CSS for a professional and modern design
 
-## 🔥 About Me  
-💻 **Full-Stack Developer** | 🎨 **UI/UX Enthusiast** | 📍 **Chicago, IL**  
+## Installation
+To run this project locally:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/vmr093/Jahnke-Jahnke.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Jahnke-Jahnke
+   ```
+3. Open `index.html` in your browser or use a local server.
 
-I love building sleek, **interactive web applications** using:  
-- 🌐 **Frontend:** HTML, CSS, JavaScript, React  
-- ⚙️ **Backend:** Node.js, Express, Django  
-- 🗄️ **Databases:** MongoDB, PostgreSQL  
-- 🎨 **Design Tools:** Figma, TailwindCSS  
-- 🚀 **Version Control & DevOps:** Git, GitHub, Netlify, GitHub Pages  
+## Usage
+- Navigate through the website using the header menu.
+- Submit project requests via the **Online Order Form**.
+- Explore detailed descriptions of our services under respective pages.
 
-💡 I thrive in **creating intuitive user experiences** and optimizing performance!  
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature-branch`):
+   ```sh
+   git checkout -b feature-branch
+   ```
+3. Commit your changes:
+   ```sh
+   git commit -m "Add new feature"
+   ```
+4. Push to your branch:
+   ```sh
+   git push origin feature-branch
+   ```
+5. Open a Pull Request.
 
----
+## Contact
+For inquiries, contact us at:
+- **Email:** [info@jahnkeandjahnke.com](mailto:info@jahnkeandjahnke.com)
+- **Phone:** +1 (234) 567-890
+- **Website:** [Jahnke & Jahnke](https://jahnkeandjahnke.com)
 
-## 🛠️ Technologies & Tools  
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)  
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)  
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django)  
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)  
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)  
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)  
-![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square&logo=visual-studio-code)  
-
----
-
-## 🖥️ Featured Projects  
-### 📸 **High Altitude Photography**  
-🚀 **Parallax scrolling photography portfolio** featuring stunning **mountain prints** for sale.  
-🔗 **Live Demo:** [High Altitude](https://vmr093.github.io/HightAltitude/)  
-🔗 **Repo:** [GitHub](https://github.com/vmr093/HighAltitude)  
-
-### 📚 **LitLibrary** *(Coming Soon!)*  
-📖 **Interactive book collection app** that lets users track and share book recommendations.  
-🔗 **Live Demo:** [Coming Soon](#)  
-🔗 **Repo:** [GitHub](https://github.com/vmr093/LitLibrary)  
-
----
-
-## ✉️ Contact Me  
-📧 **Email:** [your-email@example.com](mailto:ranjha.viola@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/viola-ranjha-858844133/)  
-📂 **Portfolio:** [vmr093.github.io/ViolaRanjha](https://vmr093.github.io/ViolaRanjha/)  
-
-📌 **Let’s connect! I’m open to collaborations, projects, and full-time opportunities!** 🚀  
-
----
-
-## ⭐ Fun Fact  
-**I started in accounting & finance before transitioning into tech!** Numbers make sense, but **building digital experiences is where my heart is.** 💻✨   
-
----
-
-🎉 **Thanks for stopping by!** Feel free to fork, clone, or reach out for collaboration! 🚀🔥  
+## License
+This project is licensed under the **MIT License**.
