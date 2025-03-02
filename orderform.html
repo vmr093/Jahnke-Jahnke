@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Order Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea, select {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Online Order Form</h1>
+        <a href="index.html" class="home-button">Home</a>
+        <a href="https://jahnkeandjahnke.com/wp-content/uploads/2017/09/jahnke_order_form_2022.pdf" class="contact-button">Download Order Form</a>
+        <form action="process_order.php" method="POST">
+            <h2>Contact Information</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <h2>Bill To</h2>
+            <label for="billto-name">Name:</label>
+            <input type="text" id="billto-name" name="billto-name" required>
+
+            <label for="billto-address">Address:</label>
+            <input type="text" id="billto-address" name="billto-address" required>
+
+            <label for="billto-city">City:</label>
+            <input type="text" id="billto-city" name="billto-city" required>
+
+            <label for="billto-state">State:</label>
+            <input type="text" id="billto-state" name="billto-state" required>
+
+            <label for="billto-zip">Zip Code:</label>
+            <input type="text" id="billto-zip" name="billto-zip" required>
+
+            <h2>Property Address</h2>
+            <label for="property-address">Address:</label>
+            <input type="text" id="property-address" name="property-address" required>
+
+            <label for="property-city">City:</label>
+            <input type="text" id="property-city" name="property-city" required>
+
+            <label for="property-state">State:</label>
+            <input type="text" id="property-state" name="property-state" required>
+
+            <label for="property-zip">Zip Code:</label>
+            <input type="text" id="property-zip" name="property-zip" required>
+
+            <label for="property-type">Type of Property:</label>
+            <select id="project-type" name="project-type">
+                <option value="Single Family Residence">Single Family Residence</option>
+                <option value="Commercial/Industrial Bulding">Commercial/Indstrial Building</option>
+                <option value="Townhouse">Townhouse</option>
+                <option value="Apartment Building">Apartment Building</option>
+                <option value="Farm">Farm</option>
+                <option value="Other (Please Specify)">Other</option>
+            </select>
+
+            <label for="project-needed-by">Project Needed By:</label>
+            <input type="date" id="project-needed-by" name="project-needed-by">
+
+            <label for="project-type">Project Type:</label>
+            <select id="project-type" name="project-type">
+                <option value="stakeout">Stakeout</option>
+                <option value="site-plan">Site Plan</option>
+                <option value="ALTA/NSPS">ALTA/NSPS</option>
+                <option value="Plat of Survey">Plat of Survey</option>
+                <option value="Mortgage Survey">Mortgage Survey</option>
+                <option value="Certified Survey Map">Certified Survey Map</option>
+            </select>
+
+            <label for="closing-date">Closing Date:</label>
+            <input type="date" id="closing-date" name="closing-date">
+
+            <label for="shipping-method">Shipping Method:</label>
+            <select id="project-type" name="project-type">
+                <option value="PDF Only">PDF Only</option>
+                <option value="Regular Mail Only">Regular Mail Only</option>
+                <option value="PDF and Regular Mail">PDF and Regular Mail</option>
+                <option value="FedEx Overnight Only (Charges Apply)">FedEx</option>
+                <option value="pdf and FedEx Overnight">FedEx and PDF</option>
+            </select>
+
+            <label for="site-contact">Site Contact:</label>
+            <input type="text" id="site-contact" name="site-contact">
+
+            <label for="site-contact-phone">Site Contact Phone Number:</label>
+            <input type="tel" id="site-contact-phone" name="site-contact-phone">
+
+            <label for="legal-description">Legal Description:</label>
+            <textarea id="legal-description" name="legal-description" rows="3"></textarea>
+
+
+            <label for="file-upload">Upload Supporting Documents:</label>
+            <input type="file" id="file-upload" name="file-upload">
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</body>
+</html>

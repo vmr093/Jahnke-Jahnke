@@ -83,6 +83,70 @@
         font-size: 40px;
         cursor: pointer;
       }
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 15px 20px;
+        }
+        .header img {
+            height: 80px; /* Increased logo size */
+        }
+        .header .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        .header .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .header .social-links a:hover {
+            color: #aaa;
+        }
+        .header .social-links img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/fulllogo.png" alt="Company Logo">
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="assets/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="assets/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="assets/facebook.png" alt="Facebook">
+            </a>
+            <a href="mailto:survey@jahnkeandjahnke.com">
+                <img src="assets/email.png" alt="Email">
+            </a>
+        </div>
+    </header>
+</body>
+</html>
+
+
     </style>
   </head>
   <body>
@@ -95,7 +159,7 @@
           Engineering solutions since 1961.
         </h1>
         <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="survey@jahnkeandjahnke.com">Place an order</a>
+          <a class="cta-btn cta-btn--hero" href="orderform.html">Place an order</a>
         </p>
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
@@ -180,22 +244,22 @@
                 At Jahnke & Jahnke, we provide comprehensive civil engineering and land surveying services for a diverse range of projects across residential, commercial, industrial, municipal, and transportation sectors. With decades of experience, we specialize in designing and developing sustainable, efficient, and high-quality infrastructure solutions tailored to meet the unique needs of our clients.
               </p>
               <div class="project-wrapper__text-btns">
-                <a href="https://skintea.netlify.app/" target="_blank" rel="noopener noreferrer"
+                <a href="residential.html" target="_blank" rel="noopener noreferrer"
                    class="cta-btn cta-btn--hero cta-btn--projects">Residential</a>
             
-                <a href="https://skintea.netlify.app/" target="_blank" rel="noopener noreferrer"
+                <a href="aptcondo.html" target="_blank" rel="noopener noreferrer"
                    class="cta-btn cta-btn--hero cta-btn--projects">Apartment & Condominium</a>
             
-                <a href="https://skintea.netlify.app/" target="_blank" rel="noopener noreferrer"
+                <a href="comind.html" target="_blank" rel="noopener noreferrer"
                    class="cta-btn cta-btn--hero cta-btn--projects">Commercial/Industrial</a>
             
                 <a href="https://skintea.netlify.app/" target="_blank" rel="noopener noreferrer"
                    class="cta-btn cta-btn--hero cta-btn--projects">Municipal</a>
             
-                <a href="https://skintea.netlify.app/" target="_blank" rel="noopener noreferrer"
+                <a href="transportation.html" target="_blank" rel="noopener noreferrer"
                    class="cta-btn cta-btn--hero cta-btn--projects">Transportation</a>
             
-                <a href="https://skintea.netlify.app/" target="_blank" rel="noopener noreferrer"
+                <a href="faith.html" target="_blank" rel="noopener noreferrer"
                    class="cta-btn cta-btn--hero cta-btn--projects">Faith</a>
             </div>
             
@@ -225,8 +289,17 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Lets talk about your project today!</p>
-          <a href="mailto:ranjha.viola@gmail.com" class="cta-btn cta-btn--resume">Email Me</a>
+          <p class="contact-wrapper__text">Waukesha Office |
+
+            Jahnke & Jahnke Associates, LLC
+            524 Bluemound Rd
+            Waukesha, Wisconsin 53188 |
+            
+            Tel: (262) 542-5797 |
+            Fax: (262) 542-7698
+          </p>
+          <a href="contact.html" class="cta-btn cta-btn--resume">General Inquires</a>
+          <a href="orderform.html" class="cta-btn cta-btn--resume">Place an Order</a>
         </div>
       </div>
     </section>
@@ -238,24 +311,6 @@
         <a href="#hero" class="back-to-top" aria-label="go back to top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
-          <a
-            href="https://www.linkedin.com/in/viola-ranjha-858844133/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/vmr093"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </div>
         <hr />
         <p class="footer__text">
            <br />Made with &hearts; by Viola Ranjha
