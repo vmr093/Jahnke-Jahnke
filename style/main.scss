@@ -45,4 +45,17 @@
     gap: 1rem;
 }
 
+/* Ensure images maintain aspect ratio */
+.img-fluid {
+    max-width: 100%;
+    height: auto; /* This prevents distortion */
+    object-fit: cover; /* Ensures image fills the container without stretching */
+}
+
+.about-wrapper__image img,
+.project-wrapper__image img {
+    width: 100%; /* Adjust width to container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Keeps the entire image visible without cropping */
+}
  
