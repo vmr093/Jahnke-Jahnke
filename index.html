@@ -101,7 +101,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: white;
+            background-color: #36d1dc;
             padding: 15px 20px;
         }
         .header img {
@@ -123,12 +123,29 @@
             width: 30px;
             height: 30px;
         }
+
+        footer {
+            background-color: #000; /* Ensure background is black */
+            color: #fff; /* Set text color to white */
+            text-align: center;
+            padding: 5px 0; /* Add padding for spacing */
+            font-size: 18px; /* Make text bigger */
+        }
+
+        footer a {
+            color: #fff; /* Ensure links are also white */
+            text-decoration: none; /* Remove underlines */
+            font-size: 18px; /* Adjust link size */
+          }
     </style>
 </head>
 <body>
     <header class="header">
         <img src="assets/fulllogo.png" alt="Company Logo">
         <div class="social-links">
+          <a href="tel:+12625425797">
+            <img src="assets/phone.png" alt="Call Us">
+          </a>        
             <a href="https://www.linkedin.com" target="_blank">
                 <img src="assets/linkedin.png" alt="LinkedIn">
             </a>
@@ -176,7 +193,7 @@
           <div class="about-wrapper__image">
             <img
               class="img-fluid"
-              src="./assets/ourcompany.jpg"
+              src="./assets/ourcompany.png"
               alt="Profile Image"
               width="415"
               height="415"
@@ -313,7 +330,24 @@
         </a>
         <hr />
         <p class="footer__text">
-           <br />Made with &hearts; by Viola Ranjha
+          <div class="social-links">
+            <a href="tel:+12625425797">
+              <img src="assets/phone.png" alt="Call Us">
+            </a>        
+              <a href="https://www.linkedin.com" target="_blank">
+                  <img src="assets/linkedin.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                  <img src="assets/twitter.png" alt="Twitter">
+              </a>
+              <a href="https://www.facebook.com" target="_blank">
+                  <img src="assets/facebook.png" alt="Facebook">
+              </a>
+              <a href="mailto:survey@jahnkeandjahnke.com">
+                  <img src="assets/email.png" alt="Email">
+              </a>
+          </div>
+           <br />2025 Jahnke & Jahnke Associates, LLC. All rights reserved. | Made with &hearts; by Viola Ranjha
         </p>
       </div>
     </footer>
